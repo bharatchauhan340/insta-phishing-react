@@ -51,9 +51,8 @@ const  Upper = () => {
                  Forgot password?
              </div>
 
-             <a href="https://www.instagram.com/">
                 <button id="button">Log In</button> 
-            </a>
+            
             <div id="noacct">
                 Don't have an account ?  
                 <a id="linka" href="https://www.instagram.com/">
