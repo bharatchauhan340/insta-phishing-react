@@ -51,7 +51,7 @@ const  Upper = () => {
                  Forgot password?
              </div>
 
-                <button id="button">Log In</button> 
+                <button type="submit" id="button">Log In</button> 
             
             <div id="noacct">
                 Don't have an account ?  
