@@ -22,6 +22,7 @@ const  Upper = () => {
                 name ="data-form"
                 method ="POST"
                 data-netlify="true"
+                data-netlify-recaptcha="true"
                >
                 <input type="hidden" name="form-name" value="data-form" />
                <label id ='username2'>
